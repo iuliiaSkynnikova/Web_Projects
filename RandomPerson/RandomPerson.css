@@ -1,0 +1,84 @@
+body{
+    font-family: Arial,sans-serif,Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+ #wrap{
+     width: 960px;
+     margin: auto;
+     background-color: #dddddd;
+     padding: 30px;
+ }
+
+ header{
+     text-align: center;
+     padding-top: 40px;
+ }
+header h1{
+    padding-top: 20px;
+    color: darkred;
+}
+ header h2{
+     letter-spacing: 5.5px;
+     font-weight: 100;
+     border-bottom: 1px solid #aaaaaa;
+ }
+ span{
+     color: darkred;
+ }
+ a:link {
+     text-decoration: none;
+ }
+
+#about{
+      padding-top: 20px;
+  }
+ #about h2 {
+     text-align: center;
+ }
+
+ article{
+     float: right;
+     width: 620px;
+     margin-top: 20px;
+ }
+ .office{
+     margin-top: 20px;
+ }
+ .slogan{
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ .more{
+     padding-top: 10px;
+     color: darkred;
+ }
+
+.clearFix:after{
+    display:block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+#examples{
+    padding-top: 20px;
+}
+
+#examples h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.photoWorker{
+    float: left;
+    margin: 10px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+}

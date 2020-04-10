@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login Form</title>
+	<meta charset="utf-8">
+	<style>
+		fieldset {width: 60%;border-radius:10px;}
+		legend {font-weight: bold; font-size: 20px; padding: 10px; color: }
+		label {display: inline-block; width: 100px;}
+		input {width: 40%;}
+		#submit {margin-top: 10px; width: 10%;  padding: 15px; background-color: darkgreen; color: white; border-radius: 10px;  }
+		span.error {display: none; 	color: red;	font-style: italic;}
+	</style>
+</head>
+<body>
+<h1>Login area</h1>
+<form id="formLog" action="some-script.php" method="get" novalidate>
+<fieldset>
+	<legend>Enter your credentials</legend>
+		<p>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Username" >
+		<span class="error" id="errorUsername">Please enter username (5 or more characters). </span>
+		</p>
+		<p>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"  placeholder="Password" >
+		<span class="error" id="errorPassword">Please enter correct Password (6 or more characters and has a mixture of letters, digits and special symbol e.g. !@#$%^&*,.?) </span>
+		</p>
+</fieldset>
+
+		<input type="submit" id="submit" name="submit" value="Log In">
+
+</form>
+
+	<script type="text/javascript" src="LoginForm.js"></script>
+</body>
+</html>

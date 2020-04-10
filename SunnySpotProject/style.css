@@ -1,0 +1,424 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	font-family: arial, helvetica, sans-serif;
+	
+}
+
+h1
+{
+	font-family: 'Allura', cursive;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-bottom: 10px;
+	background-color: #2c80b7;
+	color: white;
+}
+span
+{
+	display: none;
+}
+.bitmap
+{
+	display: none;
+}
+.Nimage  
+{
+	display: none;
+}
+.Nimage2  
+{
+	display: none;
+}
+p.lorem
+{
+	display: none;
+}
+h2
+{
+	
+	padding-top : 10px;
+}
+
+h3
+{
+	padding-top: 20px;
+	padding-left: 10px;
+	
+}
+
+
+#sunny
+{
+	float: left;
+	padding: 10px;
+}
+ul
+{
+	list-style-type: none;
+}
+
+#dot
+{
+	padding-left: 30px;
+	list-style-type: circle;
+}
+
+a
+{ 
+	text-decoration: none;
+}
+ .anav
+ {
+ 	
+ 	color: white;
+ }
+
+ li
+ {
+ 	padding: 10px;
+ }
+
+ .green
+ {
+ 	background-color: #25ae61; 
+ }
+
+ .purple
+ {
+ 	background-color: #9b58b7; 
+
+ }
+
+ .blue
+ {
+ 	background-color: #3397dd;
+ }
+
+ .red
+ {
+ 	background-color: #e64b40;
+ }
+
+ .seagreen
+ {
+ 	background-color: #16a086;
+ }
+
+ .dark
+ {
+ 	background-color: #344961; 
+ }	
+
+ .highlight
+{
+	border-left: 20px solid #F9BD0D;
+
+}
+ #sectionOne
+ {
+ 	padding: 10px;
+ }
+
+ #sectionTwo
+ {
+ 	padding-bottom: 10px;
+ 	
+ }	
+
+ 
+
+ #textright
+ {
+ 	text-align: right;
+ 	
+ }
+
+ .h
+{
+	padding-top: 80px;
+	padding-left: 0px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	
+
+}
+
+div.box
+{
+	height: 110px;
+ 	width: 110px;
+ 	margin: 10px;
+}
+
+
+ #campus
+ {
+ 	
+ 	background-image: url(images/findus.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px ;
+ 	background-color:#25ae61;
+ 	float: left; 
+	
+}
+#castle
+{
+ 	
+ 	background-image: url(images/accomodation.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px ;
+ 	background-color:#9b58b7;
+  	margin-left: 10px;
+  	float: left;
+ 	
+ 		
+}
+#trailer
+
+{
+	background-image: url(images/camping.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px ;
+ 	background-color:#3397dd;
+ 	margin-left: 10px;
+ 	float: left;
+}
+#boat
+{
+	background-image: url(images/thingsToDo.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px ;
+ 	background-color:#e64b40;
+ 	margin-left: 10px;
+ 	float: left;
+}
+#umbrella
+{
+	background-image: url(images/climate.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px ;
+ 	background-color:#16a086;
+ 	margin-left: 10px;
+ 	float: left;
+
+}
+#envelope
+{
+	background-image: url(images/contact.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px ;
+ 	background-color:#344961;
+ 	margin-left: 10px;
+ 	float: left;
+}
+
+
+#clear
+{
+	clear: both;
+	height: 0px;
+}
+	
+
+
+footer
+{
+	background-color: #2c80b7;
+	margin-top: 10px;
+	height: 60px;
+}
+
+.fa
+{
+	color:white;
+	font-size: 40px;
+	margin: 5px;
+	
+
+}
+#float
+{
+
+	float: left;
+}
+
+
+#copyright
+{
+	color: white;
+	font-size: 10px;
+	padding-left: 200px;
+
+}
+
+/*-------Accomodation------------------*/
+
+.textAccom
+ {
+ 	color: #2c80b7;
+ 	padding-left: 10px;
+ }
+
+ p
+ {
+ 	padding-top : 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 10px;
+ }
+
+.frame
+{
+	border: 3px solid  #9b58b7; 
+	border-radius: 5px;
+	margin: 10px;
+	text-align: center;
+}
+
+.cabin
+{
+	width: 90%;
+	padding: 10px;
+}
+
+/*-------Camping------------------------*/
+
+.campImg
+{
+	width: 90%;
+	padding-top: 5px;
+}
+
+.campBox
+{
+	width: 100%;
+	float:left;
+	text-align: center;
+}
+
+/*-------Climate-------------------------*/
+.toDoMob
+{
+	width: 100%;
+}
+
+
+
+/*--------Things to Do-------------------*/
+
+td.toDo
+{
+	display: none;
+
+
+}
+.pToDo
+{
+	color: #697a12;
+}
+td
+{
+	text-align: center;
+	width: 50%;
+
+}
+/*-------Contact Us---------------------*/
+.error 
+{	
+	font-size: 15px;
+	padding-left: 10%;
+	display: none; 
+	color: red;	
+	font-style: italic;
+}
+}
+
+fieldset
+{
+	
+	border-color: #2C80B7;
+	border-radius: 10px; 
+	margin: 10px;
+}
+legend 
+{
+	color: #344961;
+	padding: 10px;
+	margin: 10px;  
+}
+label 
+{
+	
+	display: inline-block; 
+	width: 100px;
+}
+
+.labelbox
+{
+	width: 90%;
+	display: inline;
+	; 
+}
+
+
+input[type="text"]
+ {
+ 	width: 40%;
+ 	height: 25px;
+ }
+
+input[type="email"]
+{
+	width: 40%;
+ 	height: 25px;
+ 	
+}
+.contact
+{
+	padding-left: 10px;
+}
+textarea
+{
+	width: 90%;
+}
+
+
+#submit
+{
+	
+	width: 200px;  
+	padding: 13px; 
+	background-color:#344961 ; 
+	color:#fbd022; 
+	border-radius: 10px;
+	border: 3px #fbd022 solid; 
+	font: 20px bold;
+}
+.center
+{
+	text-align: center;
+}
+
+/*-------------Find Us--------------------------*/
+
+iframe
+{
+	
+	width: 90%;
+	padding-top:  5px;
+	
+}
+
+/*------------Admin Pge--------------------------*/
+
+.pAdmin
+{
+	display:none;
+ }
+
+
+

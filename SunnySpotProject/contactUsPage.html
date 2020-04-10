@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="images/SunnyspotLogo.png">
+	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+	<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 959px)" href="style.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 960px)" href="styleDesk.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="Contact us and send a comment">
+</head>
+<body >
+	<header>
+	<div class="Logo">
+		<a href="homePage.html"><img id="sunny" src="images/SunnyspotLogo.png" alt="Sunny Spot Logo" width="46" height="46"></a>
+		<a href="homePage.html"><h1>Sunny Spot Holidays <span>with Iuliia Skrynnikova!</span></h1></a>
+	</div>	
+
+		<nav class="headNav">
+			<ul>
+				<li class="green"> <a class="anav" href="findUsPage.html">Find us</a></li>
+				<li class="purple"> <a class="anav " href="accommodationPage.php">Accommodation</a></li>
+				<li class="blue"> <a class="anav" href="campingPage.html">Camping</a></li>
+				<li class="red" > <a class="anav" href="thingsToDoPage.html">Things to do</a></li>
+				<li class="seagreen"> <a class="anav" href="climatePage.html">Climate</a></li>
+				<li class="dark highlight"> <a class="anav" href="contactUsPage.html">Contact us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	
+	<div class="wrap">
+	<section id="sectionOneAccom">
+	<h2 class="textAccom">Contact Us</h2>
+	<form id="formLog" action="some-script.php" method="get" novalidate>
+	<fieldset>
+	<legend>Names</legend>
+		<p class="contact">
+		<label for="firstname">First name:</label>
+		<input type="text" id="firstname" name="firstname"  placeholder="John" required="" autofocus="" >
+		<span class="error" id="errorFirstname">Please enter First name (2 or more characters). </span>
+		</p>
+		<p class="contact">
+		<label for="lastname">Last name:</label>
+		<input type="text" id="lastname" name="lastname"   placeholder="Smith" required="" >
+		<span class="error" id="errorLastname">Please enter Last name (2 or more characters). </span>
+		</p>
+</fieldset>
+
+<fieldset>
+	<legend>Contact</legend>
+		<p class="contact">
+			<label for="address">Address:</label>
+			<input type="text" name="address" id="address" placeholder="10 Main street, Sydney NSW 2000">
+		</p>
+		<p class="contact">
+			<label for="phone">Phone:</label>
+			<input type="text" name="phone" id="phone" placeholder="02 9988 7766">
+			<span class="error" id="errorPhone">Please enter correct Australian phone number. </span>
+		</p>
+		<p class="contact">
+			<label for="mobile">Mobile:</label>
+			<input type="text" name="mobile" id="mobile" placeholder="0404 040 404" >
+			<span class="error" id="errorMobile">Please enter correct mobile number. </span>
+		</p>
+		<p class="contact">
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="john.smith@gmail.com" required="">
+			<span class="error" id="errorEmail">Please enter correct email. </span>
+		</p>
+</fieldset>	
+
+<fieldset>
+	<legend>Other</legend>
+		<p class="contact"> 
+			Age:
+			<span class="error" id="errorAge">Please choose at least 1 option </span>
+		</p>
+		<p class="contact">
+			<input type="radio" name="age" id="eighteen" value="eighteen" required="" >
+			<label for="eighteen">Under 18</label><br>
+		
+		
+			<input type="radio" name="age" id="twenty" value="twenty">
+			<label  for="twenty">19-25</label><br>
+		
+			<input type="radio" name="age" id="thirty" value="thirty">
+			<label for="thirty">26-35</label><br>
+
+			<input type="radio" name="age" id="morethirty" value="morethirty">
+			<label for="morethirty">35 or More</label>
+		</p>
+
+		<p class="contact">
+			<input type="checkbox" name="mailList" id="mailList" checked>
+			<label class="labelbox" for="mailList"> Would you like to join our mail list?</label>
+		</p>
+		<p class="contact">
+			<input type="checkbox" name="promotion" id="promotion" checked >
+			<label class="labelbox" for="promotion"> Would you like to reeive specials and other promotions?</label>
+		</p>
+
+		<p class="contact">
+    	<label class="labelbox" for="comment">Please add a comment:</label>
+    	<br>
+    	<textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+    	</p>
+
+</fieldset>
+
+		<p class="center">
+		<input type="submit" id="submit" name="submit" value="Send">
+		<p>
+
+</form>
+</section>
+	</div>
+		
+		
+	<footer>
+	<div class="foot">
+	<nav id="float">
+	<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+	<a href="https://pinterest.com/" target="_blank"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+	<a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>	
+		</nav>
+	<p id="copyright" >COPYRIGHT 2016, RELAX. ALL RIGHTS RESERVED</p>
+	<p class="pAdmin"><a class="admin" href="adminMenu.php">Administrative page</a></p>
+	</div>
+	</footer>
+
+<script type="text/javascript" src="ContactForm.js"></script>
+
+</body>
+</html>

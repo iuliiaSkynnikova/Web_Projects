@@ -1,0 +1,547 @@
+#dummy-element{
+    width: 2px;
+}
+
+body{
+    font-family: Arial, sans-serif, Verdana;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearFix:after {
+    display: block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+.wrapper{
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    padding-top: 20px;
+
+}
+.shoppingBag{
+    float: right;
+}
+#checkout{
+   margin-top: -65px;
+   text-align: center;
+}
+#checkout p {
+    color: white;
+    margin: 5px;
+}
+#checkout h5{
+    color: #CF1C44;
+    margin: 0;
+    padding-top: 12px;
+}
+a{
+    text-decoration: none;
+
+}
+.mainNave{
+    text-align: center;
+    background-color: #A1BF2F;
+}
+.mainNave ul li {
+
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+
+}
+.mainNave a{
+    color: white;
+}
+.mainNave a:hover{
+    color: #000;
+}
+
+nav.mainNave > ul{
+    margin-bottom: 0px;
+}
+
+
+nav.mainNave > ul > li > ul.submenu {
+   display: none;
+}
+nav.mainNave > ul > li > ul.submenu {
+    padding-left: 0px;
+    position: absolute;
+    z-index: 1;
+    background-color: #A1BF2F;
+    color: white;
+    width: 120px;
+}
+
+nav.mainNave > ul > li > ul.submenu > li > a {
+    display: block;
+}
+
+nav.mainNave > ul > li:hover > ul.submenu {
+    display: block;
+}
+
+.active a{
+    color: #CF1C44;
+}
+
+.category ul{
+    text-align: center;
+    padding: 0;
+}
+
+
+.category li{
+    display: inline-block;
+    width:230px;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.category a {
+    text-decoration: none;
+    display: inline-block;
+}
+.category h2{
+    color: #A1BF2F;
+}
+
+.gallery{
+    background-color:#2F190D;
+    padding: 10px;
+}
+.gallery a h2:hover{
+    color:#CF1C44;
+}
+
+footer{
+    text-align: center;
+    background-color: #A1BF2F;
+}
+.footerNav ul li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+
+}
+.toright {
+    float: right;
+    padding-right: 40px;
+
+
+}
+
+.toleft {
+    float: left;
+
+}
+
+.toright li{
+    padding-right: 10px;
+}
+.footerNav a{
+    color: black;
+}
+.footerNav a:hover{
+    color: white;
+}
+#datetime{
+    padding-top: 28px;
+}
+#searchForm {
+    width: 800px;
+    text-align: right;
+    margin-top: -26px;
+}
+
+.searchText{
+    border: 2px solid #2F190D;
+    border-radius: 10px;
+    padding-left: 5px;
+    text-align: center;
+
+} 
+.searchButton{
+    height: 31px;
+    margin-left: -22px;
+    border: 2px solid #2F190D;
+    border-radius: 10px;
+    background-color: #2F190D;
+    color: white;
+}   
+#searchForm  input.searchButton:hover{
+    color: #A1BF2F;
+}
+
+/*______________Contact Us________________*/
+
+fieldset
+{
+
+    border-color: #A1BF2F;
+    border-radius: 10px;
+    margin: 10px;
+}
+legend
+{
+    color: #2F190D;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+label
+{
+
+    display: inline-block;
+    width: 200px;
+}
+
+
+input[type="text"]
+{
+    width: 30%;
+    height: 25px;
+
+}
+
+input[type="email"]
+{
+    width: 30%;
+    height: 25px;
+}
+
+input[type="file"]
+{
+    width: 30%;
+    height: 25px;
+}
+
+input[type="checkbox"]
+{
+    width: 30%;
+    height: 17px;
+}
+
+select {
+    width: 30%;
+    height: 25px;
+
+}
+
+.contact
+{
+    padding-left: 30px;
+
+}
+
+.submit
+{
+    width: 110px;
+    padding: 10px;
+    background-color:#2F190D ;
+    color: white;
+    font-size: 15px;
+}
+
+.submit:hover{
+    color: #A1BF2F;
+}    
+.center{
+    text-align: center;
+}
+.q{
+    float: left;
+}
+.error{
+    color: red;
+    margin-left: 10px;
+    width: 320px;
+}
+
+.sendEmail{
+     
+    height:  300px;
+    line-height: 300px;
+    background-color: white;
+}
+.textSendEmail{
+    color: #2F190D;
+    text-align: center; 
+    font-weight: bold;
+    
+}
+.photoline{
+    padding-left: 32%;
+    width: 122px;
+}    
+
+.activeline{
+    width: 50px;
+} 
+/*______________Product list...________________*/
+
+.infoButton{
+   background-color: #2F190D;
+   padding: 8px;
+   color: #A1BF2F;
+   font-weight: bold;
+
+}
+.pItem{
+    color: #2F190D;
+}
+a p.infoButton:hover{
+    color: #CF1C44;
+}
+
+
+/*________________Product Description____________*/
+aside{
+    width: 500px;
+    float: right;
+   
+}
+#ItemImg{
+    width: 400px;
+    border: 2px solid #2F190D;
+    text-align: center;
+    margin: 20px;
+     
+}
+.lableItem{
+    width: 50px;
+}
+ #qty{
+    width: 50px;
+    margin-bottom: 10px;
+ }
+ #size{
+    width: 50px;
+ }
+ 
+
+/*________________Login____________*/
+
+.log
+{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.errorLog{
+    border:1px solid #cc6666;
+    color: #cc6666;
+    background-color: #ffcccc;
+    padding: 10px 15px;
+    margin: 10px 30px;
+}
+input[type="password"]
+{
+    width: 30%;
+    height: 25px;
+
+}
+
+/*________________AdminMenu____________*/
+
+.adminList{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.MenuAdmin{
+    text-align: center;
+    padding: 0;
+}
+
+.MenuAdmin a{
+    color:white ;
+    background-color: #2F190D;
+    padding: 12px;
+}
+
+.MenuAdmin a:hover{
+   color:#A1BF2F  ;
+}
+
+.LegendAdmin{
+    padding: 0;
+    margin: 0;
+}
+
+/*______________Maintein category/items__________*/
+
+.adminTabel
+
+{
+    width: 100%;
+    margin: 20px 0 20px 0 ;
+    border:2px solid #2F190D; 
+}
+
+.adminTD
+{
+
+    border: #2F190D solid 1px;
+    padding:5px;
+ }
+ .adminTH
+ {
+    border: black solid 1px;
+    padding:5px;
+    background-color: #A1BF2F;
+    color: black;
+ }
+
+.newbutton a{
+    color: white;
+}
+ .newbutton {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:#2F0089;
+
+ }
+ p.newbutton:hover a{
+    color:#A1BF2F;
+}    
+ 
+a.linkDelete
+{
+    color: red;
+}
+
+a.linkEdit{
+    color: #2F0089;
+}
+
+a.linkEdit:hover{
+     color:#A1BF2F;
+}
+
+.success{
+    border:1px solid #348a2a;
+    color: #348a2a;
+    background-color: #daf99d;
+    padding: 10px 15px;
+    margin: 10px 30px;
+}
+.back{
+     color: #348a2a;
+}
+
+/*______________Checkout__________*/
+h2.SCart{
+    text-transform: uppercase;
+}
+
+.SCartTabel{
+    width: 100%;
+    margin: 20px 0 20px 0 ;
+}
+
+.SCartTH{
+    padding: 5px;
+    background-color: #2F190D;
+    color: #A1BF2F;
+    font-weight: 100;
+}
+.SCartTD{
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid #2F190D;
+}
+.tdTotal{
+    text-align: left;
+    padding-top: 30px;
+    width: 155px;
+}
+.tdPhoto{
+    width: 155px;
+}
+.SCartbutton{
+    width: 163px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:#2F190D;
+    
+}
+.SCartbutton a{
+    color: white;
+}
+
+p.SCartbutton:hover a{
+    color:#A1BF2F;
+}   
+
+#hiddenForm{
+    display: none;
+}
+
+.card-wrapper{
+    float: right;
+    margin: 20px; 
+}
+
+
+/*______________Customize__________*/
+
+.themeTabel{
+    width: 50%;
+    margin: 20px 0 20px 0;
+    padding-left: 30px;
+}
+
+.themeTH{
+    padding: 5px;
+    background-color: #2F190D;
+    color: white;
+    font-weight: 100;
+}
+
+.themeTD{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #2F190D;
+    background-color: #A1C08A;
+}
+
+td.themeTD a{
+    color: black;
+}
+
+ td.themeTD:hover a{
+    color:white;
+}
+.changePas{
+    display: inline-block;
+    width: 150px;
+    padding-left: 30px;
+
+} 
+
+#content{
+    background-color: lightblue;
+} 
+
+#content div.wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}  
+
